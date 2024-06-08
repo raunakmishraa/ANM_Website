@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>A & M Printhouse</title>
+</head>
+<body>
+  <header style="position: relative;">
+
+      <div class="w3-top" class="header" id="home">
+      <div class="w3-bar  w3-card w3-left-align w3-large heeder-large-screen" style="background-color: #6b5b95;" >
+        <div class="logo">
+          <a href="index.htm"><img src="img/logo.png" alt="logo" width="125px"></a>
+        </div>
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-black w3-large " href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="#home" class="w3-bar-item w3-button w3-padding-large  w3-hover-black">Home</a>
+        <div >
+          <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black" >About</a>
+          <a href="#products" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black"> Products</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Contact</a>
+        </div>
+      </div>
+
+      <!-- Navbar on small screens -->
+      <div id="navDemo" class="w3-bar-block  w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large"onclick="myFunction()">About</a>
+        <a href="#products" class="w3-bar-item w3-button w3-padding-large"onclick="myFunction()">Products</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
+      </div>
+    </div>
+  </header>
+      
+  <h2 class="title"style="opacity: 0;">bood </h2> 
+
+
+        <h2 class="title"> About US </h2>
+
+          <p style="color: wheat;">A & M Printhouse is specialist in offset and digital printing. We design and prepare Quality Products with modern equipment and less cost.<br>
+            A & M Printhouse is one of the Rising and widely acknowledged printng companies in Nepal, with a proven track record in producing high-quality print works with originality within a wide range of print materials
+            from office stationery to promotional materials like posters, calendar, promotional items and high-end packaging materials with proficiency and specializing in high Quality printing.</p>
+           
+
+      <h2 class="title">Reach out to us</h2>
+      <div class="contact" id="contact" style="padding-bottom: 10px !important;">
+      <div class="contact-list contact-address"  >
+        <h5><span><i class="fa fa-map-marker w3-xlarge w3-text-light-grey"></i></span>Address</h5>
+        <p>Bagbazar-31,kathmandu,Nepal </p>
+      </div>
+      <div class="contact-list">
+        <h5><span><i class="fa fa-envelope w3-xlarge w3-text-light-grey"></i></span>anmprinthouse@gmail.com</h5>
+  
+      </div>
+      <div class="contact-list" >
+        <h5><span><i class="fa fa-phone w3-xlarge w3-text-light-grey"></i></span>Phone</h5>
+        <p>01-5341297</p>
+        <p>9801540458</p>
+        <p>9801540464</p>
+      </div>
+
+      </div>
+    </div>
+        
+      </main>
+      <div class="w3-padding w3-center" style="background: #FFF4A3;padding: 10px 0px !important; color:#282A35; ">
+        <div style="display: flex; justify-content: center;align-items: center; flex-wrap: wrap;">
+          <p style="margin: 10px !important ">This website was made by <a href="www.aadarshajha.com.np">Aadarsha Jha</a>
+        </div>
+
+      </div>
+      
+  <script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
+</body>
+</html>
